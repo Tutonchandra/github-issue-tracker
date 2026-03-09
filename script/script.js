@@ -109,8 +109,8 @@ function createCard(issues) {
 
             <div class="flex justify-between">
             ${issues.status === "open"
-            ? '<img src="/assets/Open-Status.png">'
-            : '<img src="/assets/Closed-Status.png">'
+            ? '<img src="assets/Open-Status.png">'
+            : '<img src="assets/Closed-Status.png">'
         }
 
             <h2 class="px-6 py-1 rounded-3xl text-md font-semibold uppercase
